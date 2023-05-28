@@ -1,9 +1,12 @@
 //Git commands:
-git clone <repository url>
-git status
-git commit -m <comment>
-git pull
-git push
+git clone <repository url>        // Klonar initialt ner ett repository till den lokala maskinen.
+git status                        // Listar information om den nuvarande branchen
+-----------------H”r ihop:----------
+2. git add *                      // Stage:ar filer s† att de „r redo att tas med i n„sta commit som skapas
+1. git commit -m <comment>        // Skapar en slags "checkpoint" inf”r push till "servern"
+3. git pull                       // H„mtar uppdateringar som skett p† servern (vanligtvis av andra) sedan senaste pull/clone
+4. git push                       // Laddar upp „ndringar i form av en commit till "servern"
+------------------------------------
 
 //Special files:
-.gitignore
+.gitignore                        //fil d„r man specifierar mappar och filer som inte ska komma med i "git add" steget
