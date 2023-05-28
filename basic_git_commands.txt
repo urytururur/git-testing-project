@@ -1,0 +1,9 @@
+//Git commands:
+git clone <repository url>
+git status
+git commit -m <comment>
+git pull
+git push
+
+//Special files:
+.gitignore
