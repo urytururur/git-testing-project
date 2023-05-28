@@ -1,0 +1,3 @@
+# change from https to shh clone because of https verification restrictions
+git remote set-url origin <shh_url from github (or where ever)>
+git remote get-url origin
